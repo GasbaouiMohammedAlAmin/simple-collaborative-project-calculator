@@ -1,7 +1,7 @@
 public class CalculatorService implements CalculatorRepo {
     @Override
     public Double addition(Double a, Double b) {
-        return null;
+        return a+b;
     }
 
     @Override
