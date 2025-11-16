@@ -6,7 +6,7 @@ public class Main {
         calculatorService =new CalculatorService();
         Scanner scanner=new Scanner(System.in);
         int number=0;
-        while(number!=6){
+        while(number!=7){
             dashboardConsole();
             number=scanner.nextInt();
             if(number>=1&&number<5){
@@ -20,8 +20,12 @@ public class Main {
                 System.out.print("enter the number : ");
                 int numberTest=scanner.nextInt();
                 System.out.println("is prime: " + calculatorService.isPrime(numberTest));
-            }
+            }else if(number==6){
+                System.out.print("enter the number : ");
+                int numberTest=scanner.nextInt();
+                System.out.println("is even: ");
         }
+    }
 
     }
 
@@ -54,7 +58,8 @@ public class Main {
         System.out.println("3: multiplication operation ");
         System.out.println("4: division operation");
         System.out.println("5: is prime number ");
-        System.out.println("6: quit the application ");
+        System.out.println("6:is even Number");
+        System.out.println("7: quit the application ");
         System.out.println("*****************************");
     }
 }
