@@ -4,4 +4,5 @@ public interface CalculatorRepo {
     Double division(Double a,Double b );
     Double subtraction(Double a,Double b );
     Boolean isPrime(Integer val);
+    Boolean isEven(Integer val);
 }

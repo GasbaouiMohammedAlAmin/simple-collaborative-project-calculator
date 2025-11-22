@@ -28,4 +28,9 @@ public class CalculatorService implements CalculatorRepo {
         }
         return true;
     }
+
+    @Override
+    public Boolean isEven(Integer val) {
+        return val%2==0;
+    }
 }

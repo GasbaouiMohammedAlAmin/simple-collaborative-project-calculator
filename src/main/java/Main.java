@@ -23,7 +23,7 @@ public class Main {
             }else if(number==6){
                 System.out.print("enter the number : ");
                 int numberTest=scanner.nextInt();
-                System.out.println("is even: ");
+                System.out.println("is even: "+calculatorService.isEven(numberTest));
         }
     }
 
@@ -58,7 +58,7 @@ public class Main {
         System.out.println("3: multiplication operation ");
         System.out.println("4: division operation");
         System.out.println("5: is prime number ");
-        System.out.println("6:is even Number");
+        System.out.println("6: is even Number");
         System.out.println("7: quit the application ");
         System.out.println("*****************************");
     }
